@@ -1,0 +1,27 @@
+==========EXPRESIONES REGULARES===========
+       	=========JAVA===========
+ ____________
+||startswith||
+
+
+El startsWith () método determina si una determinada cadena comienza con una cadena especificada tambien se podria
+utilizar la inversa, endsWith () que determina si la cadena termina con una cadena especificada.
+
+SINTAXIS
+public boolean startsWith(String nombre)
+
+El nombre es la cadena que se está probando. Si la cadena coincide, cierto es devuelto. De lo contrario, falso se devuelve.
+Por ejemplo,
+
+"Alaster" .startsWith ( "Ala") son a la vez verdadera. Si la cadena a buscar comenzara con minuscula (ala) nos devolveria falso.
+
+
+ if (listaPersonas[i].nombre.startsWith(nombre)) {
+
+
+(nombre)==> EL PREFIJO QUE VA SER COMPARADO.
+
+
+
+La función startsWith se utiliza para determinar si el inicio de un objeto String coincide
+con una cadena especificada. La función startsWith distingue entre mayúsculas y minúsculas.
